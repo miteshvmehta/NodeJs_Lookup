@@ -96,8 +96,8 @@ vo(function*(){
 						//console.log('Document: ' + document.documentElement.innerHTML);
 						*/
 						//  page.switchToFrame(1);
-			            // return document.getElementById('iframe_id').contentWindow.document.body.innerHTML
-			            //return document.documentElement.innerHTML;
+			                        // return document.getElementById('iframe_id').contentWindow.document.body.innerHTML
+			                        //return document.documentElement.innerHTML;
 						//return document.body.querySelector('#accelus_components_application_IframeView_0').innerHTML;
 						
 						/*
