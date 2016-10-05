@@ -2,7 +2,7 @@ var Nightmare = require('nightmare');
 var nightmare = Nightmare({ show: true })
 
 nightmare
-  .goto('http://www.w3schools.com/html/html_iframe.asp')
+  .goto('http://www.w3schools.com/html/html_iframe.asp')	//Read iframe from w3school website
   .wait('#mainLeaderboard')
   .evaluate(function () {
 	  var iframeObj = document.querySelector("iframe[src='default.asp']");
